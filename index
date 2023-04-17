@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Links & Images </title>
+</head>
+<body>
+    
+    <!-- The Home Page -->
+    <h1> Homepage </h1>
+
+    <!-- An Absolute Link -->
+    <a href="https://theuselessweb.com"> Click Me </a>
+
+    <!-- A relative Link -->
+    <a href="./pages/about.html"> About </a>
+
+    <!-- Linking Images -->
+    <img src="./images/first_img.jpg" alt=" This is an Image of an Afican Girl ">
+    
+</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        background-color: gold;
+        padding: 20px;
+        border: 3px solid black;
+        margin-right: 50px;
+        margin-top: 50px;
+      }
+
+      /*
+       margin: 50px;
+       margin은 요소의 크기에는 어떠한 영향도 미치지 않는다
+       요소와 쇼오 사이의 간격
+       */
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
+      tempore laboriosam facere, quas excepturi fugit eius consectetur.
+      Perferendis reiciendis adipisci repellendus sapiente?
+    </div>
+
+    <div class="box">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
+      tempore laboriosam facere, quas excepturi fugit eius consectetur.
+      Perferendis reiciendis adipisci repellendus sapiente?
+    </div>
+
+    <div class="box">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
+      tempore laboriosam facere, quas excepturi fugit eius consectetur.
+      Perferendis reiciendis adipisci repellendus sapiente?
+    </div>
+  </body>
+</html>
