@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<!-- THE DOCTYPE tells the browser what type of webpage to render, the doctype used in this website is HTML5 which is the most recent HTML. -->
+<html lang="en-US">
+<head> 
+     <header>
+		<meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><https:EMcoins class="com"></https:EMcoins></title>
+  <link rel="c" href="https:EMcoins">
+  <link href="./index.html/">
+     
+<body>
+	
+  
+	<main>
+	  <div>
+		
+	<meta charset="UTF-8">
+	<h1>
+         <img src="alurastart"</h1> 
+         <title>BUY COINS</title>
+	<!-- THE TITLE element is the name of the page, it is also visible in the browser tab. Its always good practice to give each page an appropriate title. -->
+	<meta name="description" content="A sample website, nothin fancy">
+      <meta http-equiv="author" content="Eduardo MAIBUK">
+      <meta name="keywords" content="html, css, web, design, sample, practice">
+      <!-- These are META TAGS, they're used to describe the website, this information is read mainly by search engines like GOOGLE, YAHOO, ETC... -->	
+	<link rel="stylesheet" href="style.css">
+	<script src="http://localhost:8080/target/target-script-min.js#anonymous"></script>
+</head>
+<body>
+    
+    <!-- The Home Page -->
+    <h1> EMcoins </h1>
+
+    <!-- An Absolute Link -->
+    <a href="https://whatsapp.web"> Click Me </a>
+
+    <!-- A relative Link -->
+    <a href="./pages/about.html">  </a>
+
+    <!-- Linking Images -->
+    <img src="alurastart.png" alt=" logo da loja ">
+    
+</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        display: inline-block;
+        width: 300px;
+        height: 150px;
+        background-color: rgb(185, 180, 180);
+        padding: 20px;
+        border: 3px solid rgb(78, 77, 77);
+        margin-right: 50px;
+        margin-top: 50px;
+      }
+
+      /*
+       margin: 50px;
+       margin은 요소의 크기에는 어떠한 영향도 미치지 않는다
+       요소와 쇼오 사이의 간격
+       */
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      COMPRAR TIMES
+    </div>
+
+    <div class="box">
+      COMPRAR COINS
+
+	  50R$ = 100K coins
+    </div>
+
+    <div class="box">
+     VENDA SUAS COINS
+
+	 45R$ = 100K coins
+    </div>
+  </body>
+</html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Spring Security Tutorial</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/login.css}" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<form th:action="@{/registration}" method="get">
+		<button class="btn btn-md btn-warning btn-block" type="Submit">Go To Registration Page</button>
+	</form>	
+	
+	<div class="container">
+		<img th:src="@{/images/login.jpg}" class="img-responsive center-block" width="300" height="300" alt="Logo" />
+		<form th:action="@{/login}" method="POST" class="form-signin">
+			<h3 class="form-signin-heading" th:text="Welcome"></h3>
+			<br/>
+			 
+			<input type="text" id="email" name="email"  th:placeholder="Email"
+				class="form-control" /> <br/> 
+			<input type="password"  th:placeholder="Password"
+				id="password" name="password" class="form-control" /> <br /> 
+				
+			<div align="center" th:if="${param.error}">
+				<p style="font-size: 20; color: #FF1C19;">Email or Password invalid, please verify</p>
+			</div>
+			<button class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit" th:text="Login"></button>
+		</form>
+	</div>
+</body>
+</html>
+
+
+
+<div class="subpageTitle u-bg10">
+   <div class="container">
+      <h1 class="text-uppercase">
+         Contact Us
+      </h1>
+   </div>
+</div>
+<!-- subpageBanner -->
+<div class="container">
+   <div class="row">
+      <div class="col-sm-8 col-sm-push-4 col-md-7 col-md-push-5 col-lg-8 col-lg-push-4" id="mainContent">
+         <ul class="breadcrumb">
+            <li>
+               <a id="bchomelink" class="fileTrail" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li class="fileTrailCurrent active">Contact Us</li>
+         </ul>
+         <form name="contentForm" enctype="multipart/form-data" method="post" action="/contact-us/index.stml">
+            <!-- <h4>CONTACT FORM</h4> -->
+            <div class="contactForm">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="form-group icon-1">
+                        <label class="control-label sr-only" for="firstName">First Name</label> 
+                        <input name="firstName" id="firstName" class="form-control" placeholder="FIRST NAME" type="text" value="">
+                     </div>
+                     <div class="form-group icon-1">
+                        <label class="control-label sr-only" for="c_lastname">Last Name</label> 
+                        <input name="lastname" id="c_lastname" class="form-control" placeholder="LAST NAME" type="text" value="">
+                     </div>
+                     <div class="form-group icon-2">
+                        <label class="control-label sr-only" for="fromEmail">Email</label> 
+                        <input name="fromEmail" id="fromEmail" class="form-control" placeholder="EMAIL" type="text" value="">
+                     </div>
+                     <div class="form-group icon-3">
+                        <label class="control-label sr-only" for="phoneNumber">Phone Number</label> 
+                        <input name="phoneNumber" id="phoneNumber" class="form-control" placeholder="PHONE" type="text" value="">
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="form-group">
+                        <label class="control-label sr-only" for="comments">Your Message</label> 
+                        <textarea name="comments" rows="5" id="comments" class="form-control" placeholder="YOUR MESSAGE" cols="10">
+	<div class="container">
+<!-- THIS ACTUAL CONTENT BEGINS HERE...this is called a comment. which can only be seen when viewing the source code. This text CANNOT be seen by the browser. Its helpful when you need to place notes, comments or reminders in your code -->
+	<header>
+		<div class="header">
+			<h1>BUY COINS</h1>
+		</div>
+	</header>
+	<!-- END HEADER | the header element in new to HTML5 -->
+		<div class="main">
+			<h2>Redes Sociais</h2>
+		</div>
+		<div class="feature">
+			<h3>instagram              whatsapp </h3>
+			<p>50 R$ = 100K coins</p>
+			<!-- LOREM IPSUM is universally used. Lorem ipsum is dummy text, it does't really mean anything. Its used to fill space or for mockups. -->
+		</div>
+		<div class="feature">
+			<h3>SELL COINS</h3>
+			<p>45R$ = 100K coins</p>
+		</div>
+	<footer>
+		2023 Eduardo MAIBUK 
+	</footer>
+	<!-- END FOOTER | the footer element is also new to HTML5 -->
+	</div>
+</body>
+</html>
