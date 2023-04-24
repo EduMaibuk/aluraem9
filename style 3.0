@@ -5,35 +5,13 @@
 width: 20%;
     }
    
+    body{
+        background-color: black;
+    }
 
-      /*
-       margin: 50px;
-       margin
-    </style>
-  </head>
-  <body>
-    <div class="box">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
-      tempore laboriosam facere, quas excepturi fugit eius consectetur.
-      Perferendis reiciendis adipisci repellendus sapiente?
-    </div>
-
-    <div class="box">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
-      tempore laboriosam facere, quas excepturi fugit eius consectetur.
-      Perferendis reiciendis adipisci repellendus sapiente?
-    </div>
-
-    <div class="box">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-      quisquam adipisci veritatis molestiae assumenda voluptatum natus quaerat
-      tempore laboriosam facere, quas excepturi fugit eius consectetur.
-      Perferendis reiciendis adipisci repellendus sapiente?
-    </div>
-  </body>
-</html>
+      
+     
+ 
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 * {
@@ -45,7 +23,6 @@ width: 20%;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
-  font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
 
@@ -110,8 +87,8 @@ fieldset {
 #contact textarea {
   width: 100%;
   border: 1px solid #ccc;
-  background: #
-  margin: 0 0 5px;
+  background: #777;
+  margin: (0px), (0px), (5px);
   padding: 10px;
 }
 
@@ -177,18 +154,11 @@ fieldset {
 }
 
 :-ms-input-placeholder {
-  color: #888;
+  color: rgb(75, 75, 75);
 }
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
 
 
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Welcome to My Web Site</title>
 
-
-<style type="text/css" media="all">
 :link,:visited { text-decoration:none }
 ul,ol { list-style:none }
 h1,h2,h3,h4,h5,h6,pre,code { font-size:small; }ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{ margin:0; padding:0 }
@@ -215,10 +185,9 @@ z-index:0;
 div.og {
 position:absolute;
 top:0px;
-/*
+
 left:60%;
 float:right;
 width:40%;
-*/
-
+}
 
